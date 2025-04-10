@@ -530,5 +530,6 @@ const ClickerGame = () => {
     </div>
   );
 };
-
-export default ClickerGame;
+// Depois de definir ClickerGame...
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<ClickerGame />);
