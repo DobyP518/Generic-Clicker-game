@@ -530,6 +530,7 @@ const ClickerGame = () => {
     </div>
   );
 };
+};
 // Depois de definir ClickerGame...
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<ClickerGame />);
